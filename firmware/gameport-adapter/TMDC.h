@@ -199,7 +199,7 @@ private:
 
     switch (m_deviceType) {
       case DeviceType::Millenium3D:
-        numAxes = 6; hasHat = true;
+        numAxes = 4; hasHat = true;
         btnc[0] = 4; btno[0] = 4;
         btnc[1] = 2; btno[1] = 6;
         break;

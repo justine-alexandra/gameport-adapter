@@ -83,6 +83,7 @@ Generic Analog               | 4       | 4     | 0    | 1100  | Analogue   |
 CH FlightStick               | 4       | 4     | 1    | 0010  | Analogue   |
 CH F16 Combat Stick          | 10      | 3     | 1    | 0110  | Analogue   |
 ThrustMaster                 | 4       | 3     | 1    | 1010  | Analogue   | FCS MARK I/II & PFCS
+ThrustMaster Millenium 3D    | 6       | 4     | 1    | 0101  | TMDC       | 
 Sidewinder GamePad           | 10      | 2     | 0    | 1110  | Sidewinder |
 Sidewinder 3D Pro            | 8       | 4     | 1    | 1110  | Sidewinder |
 Sidewinder 3D Pro Plus       | 9       | 4     | 1    | 1110  | Sidewinder | First version of Precision Pro
@@ -111,6 +112,9 @@ Gravis GamePad Pro, but without daisy chaining possibility so far.
 - The implementation of the ADI protocol used by Logitech should work with all
 the devices which support that protocol. However only the listed Logitech devices 
 were tested so far.
+- Likewise, for TMDC devices (ThrustMaster Direct Connect) only the Millenium 3D
+has been tested. Rage 3D, Attack Throttle, Frag Master and Fusion Gamepad devices
+are defined in code but button and axis mappings need verification.  
 
 ## Which joysticks were tested?
 
@@ -141,7 +145,8 @@ so far:
 * Sidewinder ForceFeedBack Pro
 * Sidewinder ForceFeedBack Wheel
 * Sidewinder GamePad
-* Sidewinder Precision Pro 
+* Sidewinder Precision Pro
+* ThrustMaster Millenium 3D Inceptor 
 
 Sidewinder 3D Pro can be switched between analog and digital mode and in analog
 mode it can emulate the ThrustMaster and CH FlightStick. That's why you see them in
